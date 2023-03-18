@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 5, 177);
+}
+
+.icons{
+  color: teal;
+  font-size: 23px;
+  opacity: 1;
+}
+
+.icons:hover{
+  color: chartreuse;
+  font-size: 30px;
+  transition: .4s;
+}
+
+  .icon-star:before {
+    content: "\f005";
+   
+  }
+  
+
+  .icon-bin:before {
+    content: "\e9ac";
+   
+  }
+  
+  .icon-check-circle:before {
+    content: "\f058";
+    
+  }
+  
+  .icon-heart:before {
+    content: "\f004";
+    
+  }
+
+  .icon-bell:before {
+    content: "\f0f3";
+   
+  }
+
+
+
+  .title{
+
+    color: rgb(207, 128, 10);
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px 0px;
+    padding: 20px 0;
+    background: linear-gradient(rgb(39, 13, 187),rgb(42, 10, 156));
+   
+  }
+
+  .taskall{
+    border:  3px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .taskitem{
+  
+    margin: auto;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 17px 0;
+    border-radius: 5px;
+    background: rgba( 7, 20, 117, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border-bottom:2px rgba(255, 235, 205, 0.301) solid ;
+    margin-bottom: 20px;
+    border:  3px solid rgb(19, 189, 95);
+  }
+
+  
+  .twoicons{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+  }
+
+
+  .taskitem h3{
+    color: rgb(247, 245, 245);
+    font-size: 20px;
+  }
+
+  .formsec{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin-top: 15px;
+  }
+
+  form{
+    margin: auto;
+  }
+
+.finput{
+  min-width: 45vw;
+  margin-right: 15px;
+  font: 16px sans-serif;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+
+button{
+
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(246, 250, 247);
+  background-color: blue;
+}
+
+button:hover{
+
+  background-color:rgb(53, 226, 47) ;
+  cursor: pointer;
+  font-size:20px ;
+
+}
+
+.icon-star-select{
+  color: yellow;
+  opacity: 1;
+}
+
+.finish{
+
+  text-decoration-line:underline;
+  text-decoration-style: wavy;
+  opacity: .4 ;
+  }
